@@ -1,0 +1,8 @@
+notebook
+opencv-python
+numpy
+torch
+ultralytics
+python-dotenv
+twilio
+sendgrid
