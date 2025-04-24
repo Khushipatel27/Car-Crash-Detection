@@ -1,6 +1,7 @@
 # 🚗 Car Crash Detection & Risk Analysis System
 
 A real-time Computer Vision system that detects car crashes, estimates vehicle speed, analyzes crash risk levels, sends emergency SOS alerts, and generates comprehensive reports. The system utilizes advanced object detection techniques with YOLOv8, specifically leveraging both YOLOv8n and YOLOv8m models. Depending on the scenario, weights from either model are used to balance speed and accuracy — with YOLOv8n optimized for faster inference and YOLOv8m for improved detection precision. Through this combined approach, the system achieves an overall detection accuracy of approximately 60%, providing dynamic visual feedback using bounding box color changes based on risk probability.
+
 ---
 
 ## 🧠 Key Features
@@ -17,15 +18,25 @@ A real-time Computer Vision system that detects car crashes, estimates vehicle s
   - 🟨 **Yellow** – Moderate Risk  
   - 🟥 **Red** – High Risk  
 
+- 🧠 **Advanced Crash Risk Assessment**  
+  **Proactive Monitoring Before Accidents Occur:**
+  - **Speed Estimation:** Calculated using real-world calibration and frame displacement analysis.  
+  - **Risk Factors Considered:**  
+    - Vehicle speed and acceleration  
+    - Proximity to other vehicles  
+    - Erratic movements and sudden braking  
+  - **Visual Risk Indicators:** Bounding boxes colored based on risk levels (%) for intuitive visual feedback.
+
 - 🆘 **SOS Emergency Alert System**  
   Automatically sends SOS alerts with crash data (e.g., time, location, risk level) to emergency contacts when a high-risk crash is detected.
 
-- 📊 **Automated Report Generation**  
-  Generates detailed reports summarizing:
-  - Number of vehicles detected  
-  - Time and location of crashes (if available)  
-  - Risk scores  
-  - Vehicle speed history  
+- 📊 **Comprehensive Reporting System**  
+  **Automated Report Generation (CSV Format):**
+  - Unique vehicle tracking with consistent IDs  
+  - Recorded maximum speed per vehicle  
+  - Estimated crash probability percentages  
+  - Key risk factor annotations  
+  - Accident timestamps and location logs
 
 - 🎥 **Video Input Support**  
   Accepts video files or live camera feeds for analysis.
@@ -83,5 +94,5 @@ pip install -r requirements.txt
 jupyter notebook main.ipynb
 
 4. Dataset Link
-(https://drive.google.com/drive/folders/1Posjr0TfdnQ7f6Zy8hWgIrHtvBZWzWEc?usp=sharing)
+https://drive.google.com/drive/folders/1Posjr0TfdnQ7f6Zy8hWgIrHtvBZWzWEc?usp=sharing
 
