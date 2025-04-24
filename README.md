@@ -1,7 +1,6 @@
 # 🚗 Car Crash Detection & Risk Analysis System
 
-A real-time deep learning-based system that detects car crashes, estimates vehicle speed, analyzes crash risk levels, sends emergency SOS alerts, and generates comprehensive reports. The system uses computer vision and object detection (YOLO) techniques to provide dynamic visual feedback using bounding box color changes based on risk probability.
-
+A real-time Computer Vision system that detects car crashes, estimates vehicle speed, analyzes crash risk levels, sends emergency SOS alerts, and generates comprehensive reports. The system utilizes advanced object detection techniques with YOLOv8, specifically leveraging both YOLOv8n and YOLOv8m models. Depending on the scenario, weights from either model are used to balance speed and accuracy — with YOLOv8n optimized for faster inference and YOLOv8m for improved detection precision. Through this combined approach, the system achieves an overall detection accuracy of approximately 60%, providing dynamic visual feedback using bounding box color changes based on risk probability.
 ---
 
 ## 🧠 Key Features
