@@ -35,7 +35,7 @@ A real-time Computer Vision system that detects car crashes, estimates vehicle s
 Car Crash Detection in Action
 Here is a screenshot of the car crash detection in action:
 
-![Image With accident](Images/image1.png)
+![Image With accident](Images/image-1.png)
 ![Image Wihtout accident](Images/image-2.png)
 ![Report](Images/image.png)
 ![SOS Message](Images/1.jpg)
