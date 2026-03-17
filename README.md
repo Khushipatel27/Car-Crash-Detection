@@ -1,9 +1,19 @@
+<div align="center">
 # 🚗 Car Crash Detection & Risk Analysis System
+
+<img src="https://img.shields.io/badge/Python-3.10+-3776AB?style=for-the-badge&logo=python&logoColor=white"/>
+<img src="https://img.shields.io/badge/YOLOv8-Ultralytics-00BFFF?style=for-the-badge&logo=yolo&logoColor=white"/>
+<img src="https://img.shields.io/badge/OpenCV-4.9-5C3EE8?style=for-the-badge&logo=opencv&logoColor=white"/>
+<img src="https://img.shields.io/badge/Streamlit-1.32-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white"/>
+<img src="https://img.shields.io/badge/Accuracy-~60%25-orange?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/License-MIT-22c55e?style=for-the-badge"/>
+
+---
 
 A real-time Computer Vision system that detects car crashes, estimates vehicle speed, analyzes crash risk levels, sends emergency SOS alerts, and generates comprehensive reports. The system utilizes advanced object detection techniques with YOLOv8, specifically leveraging both YOLOv8n and YOLOv8m models. Depending on the scenario, weights from either model are used to balance speed and accuracy — with YOLOv8n optimized for faster inference and YOLOv8m for improved detection precision. Through this combined approach, the system achieves an overall detection accuracy of approximately 60%, providing dynamic visual feedback using bounding box color changes based on risk probability.
 
 ---
-
+</div>
 ## 🧠 Key Features
 
 - 🔍 **Car Crash Detection**  
